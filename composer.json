@@ -1,8 +1,9 @@
 {
-    "name": "milan-miscevic/skeleton",
-    "description": "A starting point for other projects",
-    "type": "project",
+    "name": "milan-miscevic/skeleton-installer",
+    "description": "A Composer plugin for an easier initial setup of a project",
+    "type": "composer-plugin",
     "keywords": [
+        "composer plugin",
         "skeleton application",
         "php project",
         "skeleton"
@@ -23,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Skeleton\\": "src/"
+            "Mmm\\SkeletonInstaller\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SkeletonTest\\": "tests/"
+            "MmmTest\\SkeletonInstaller\\": "tests/"
         }
     },
     "config": {
