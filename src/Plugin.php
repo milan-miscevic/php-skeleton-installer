@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mmm\SkeletonInstaller;
+namespace Mmm\PhpSkeletonInstaller;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
@@ -15,7 +15,7 @@ use Composer\Script\ScriptEvents;
 
 class Plugin implements PluginInterface, EventSubscriberInterface
 {
-    const PLUGIN_NAME = 'milan-miscevic/skeleton-installer';
+    const PLUGIN_NAME = 'milan-miscevic/php-skeleton-installer';
     const PREFIX = 'milan-miscevic/';
 
     private Composer $composer;
